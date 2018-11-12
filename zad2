@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#define k 6
+int main()
+{
+
+int i,u=0;
+float z,x,c,v,b;
+char array[k]={1,8,4,9,9,6};
+for(i=0; i<k; i++)
+{c+=array[i];
+}
+
+x=c/6;
+v=x+4;
+b=x-4;
+
+for(i=0; i<k; i++)
+{
+if (array[i]<v && array[i]>b)
+{u++;}
+}
+printf("otvet = %d",u);
+
+}
